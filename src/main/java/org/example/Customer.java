@@ -62,6 +62,7 @@ public class Customer {
                         String phone = scanner.nextLine();
                         Customer customer = new Customer(name, email, phone);
                         customerMap.put(name, customer);
+                        System.out.println("customer add successfully");
                         break;
                     case 2:
                         System.out.println("Enter name to search: ");
